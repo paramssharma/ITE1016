@@ -13,12 +13,10 @@ class _PrecautionsState extends State<Precautions> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text("Covid",
+                style: TextStyle(fontSize: 22, color: Colors.black54)),
             Text(
-              "Covid",
-              style: TextStyle(fontSize: 22),
-            ),
-            Text(
-              "Precaution",
+              "Precautions",
               style: TextStyle(fontSize: 22, color: Colors.pink[100]),
             )
           ],

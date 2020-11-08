@@ -14,10 +14,8 @@ class _SymptomsState extends State<Symptoms> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              "Covid",
-              style: TextStyle(fontSize: 22),
-            ),
+            Text("Covid",
+                style: TextStyle(fontSize: 22, color: Colors.black54)),
             Text(
               "Symptoms",
               style: TextStyle(fontSize: 22, color: Colors.pink[100]),

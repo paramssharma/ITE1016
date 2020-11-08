@@ -1,8 +1,8 @@
 import 'package:covidapp/views/precautions.dart';
 import 'package:covidapp/views/symptoms.dart';
+import 'package:covidapp/views/tracker.dart';
 import 'package:flutter/material.dart';
 
-import 'views/cases.dart';
 // import 'views/precautions.dart';
 // import 'views/symptoms.dart';
 // import 'views/blog.dart';
@@ -22,13 +22,13 @@ class _Covid19State extends State<Covid19> {
     setState(() {});
     switch (index) {
       case 0:
-        return Cases();
+        return Tracker();
       case 1:
         return Precautions();
       case 2:
         return Symptoms();
       // case 3:
-      //   return BlogPage();
+      //   return Tracker();
       // case 4:
       //   return CasesScreen();
     }
@@ -39,9 +39,9 @@ class _Covid19State extends State<Covid19> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        primaryColor: Colors.pink[50],
-        scaffoldBackgroundColor: Colors.black38,
+      theme: ThemeData.light().copyWith(
+        // primaryColor: Colors.pink[50],
+        scaffoldBackgroundColor: Colors.grey[200],
       ),
       home: Scaffold(
           // appBar: AppBar(
@@ -57,9 +57,10 @@ class _Covid19State extends State<Covid19> {
           ),
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: _currentIndex,
-            selectedItemColor: Colors.pinkAccent,
+            selectedItemColor: Colors.pink[300],
             unselectedItemColor: Colors.black,
             backgroundColor: Colors.white,
+
             type: BottomNavigationBarType
                 .fixed, //ye is liye daali h kyoki color change ho
             // rha tha 4 item pe
