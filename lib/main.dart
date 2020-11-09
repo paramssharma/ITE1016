@@ -3,11 +3,6 @@ import 'package:covidapp/views/precautions.dart';
 import 'package:covidapp/views/symptoms.dart';
 import 'package:covidapp/views/tracker.dart';
 import 'package:flutter/material.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-// import 'views/precautions.dart';
-// import 'views/symptoms.dart';
-// import 'views/blog.dart';
-// import 'views/blogs.dart';
 
 void main() => runApp(Covid19());
 
@@ -30,8 +25,6 @@ class _Covid19State extends State<Covid19> {
         return Symptoms();
       case 3:
         return Blogs();
-      // case 4:
-      //   return CasesScreen();
     }
     return null;
   }
@@ -40,9 +33,9 @@ class _Covid19State extends State<Covid19> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light().copyWith(
+      theme: ThemeData.dark().copyWith(
         // primaryColor: Colors.pink[50],
-        scaffoldBackgroundColor: Colors.grey[300],
+        scaffoldBackgroundColor: Colors.grey[600],
       ),
       home: Scaffold(
           // appBar: AppBar(
@@ -60,7 +53,7 @@ class _Covid19State extends State<Covid19> {
             currentIndex: _currentIndex,
             selectedItemColor: Colors.pink[300],
             unselectedItemColor: Colors.black,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.grey[700],
 
             type: BottomNavigationBarType
                 .fixed, //ye is liye daali h kyoki color change ho

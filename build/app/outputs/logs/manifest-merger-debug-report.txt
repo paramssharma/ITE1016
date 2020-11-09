@@ -6,12 +6,14 @@ INJECTED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidMan
 INJECTED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidManifest.xml:1:1-47:12
 MERGED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore_web] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core_web] /Users/paramsharma/Desktop/ITE1016/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] /Users/paramsharma/Desktop/ITE1016/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/paramsharma/Desktop/ITE1016/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider] /Users/paramsharma/Desktop/ITE1016/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/5e44f643e5d1e68aa83236c46ded5dc3/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/dd47fca0e14640edf26ad1cae04e5f27/firebase-analytics-18.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/be3d6b0e07a885b9698a2004e3c67b29/firebase-storage-19.2.0/AndroidManifest.xml:15:1-39:12
@@ -75,12 +77,12 @@ application
 ADDED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidManifest.xml:8:5-46:19
 MERGED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/dd47fca0e14640edf26ad1cae04e5f27/firebase-analytics-18.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/dd47fca0e14640edf26ad1cae04e5f27/firebase-analytics-18.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-storage:19.2.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/be3d6b0e07a885b9698a2004e3c67b29/firebase-storage-19.2.0/AndroidManifest.xml:29:5-37:19
@@ -175,6 +177,14 @@ INJECTED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidMan
 INJECTED from /Users/paramsharma/Desktop/ITE1016/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore_web] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/paramsharma/Desktop/ITE1016/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core_web] /Users/paramsharma/Desktop/ITE1016/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/paramsharma/Desktop/ITE1016/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/paramsharma/Desktop/ITE1016/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -183,10 +193,6 @@ MERGED from [:flutter_plugin_android_lifecycle] /Users/paramsharma/Desktop/ITE10
 MERGED from [:flutter_plugin_android_lifecycle] /Users/paramsharma/Desktop/ITE1016/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/paramsharma/Desktop/ITE1016/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Users/paramsharma/Desktop/ITE1016/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/5e44f643e5d1e68aa83236c46ded5dc3/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/5e44f643e5d1e68aa83236c46ded5dc3/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-analytics:18.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/dd47fca0e14640edf26ad1cae04e5f27/firebase-analytics-18.0.0/AndroidManifest.xml:5:5-44
@@ -327,6 +333,18 @@ ADDED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase
 		ADDED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_storage] /Users/paramsharma/Desktop/ITE1016/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
 	android:name
@@ -351,18 +369,6 @@ ADDED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker
 		ADDED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 	android:name
 		ADDED from [:image_picker] /Users/paramsharma/Desktop/ITE1016/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
-ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:cloud_firestore] /Users/paramsharma/Desktop/ITE1016/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_core] /Users/paramsharma/Desktop/ITE1016/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-storage:19.2.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/be3d6b0e07a885b9698a2004e3c67b29/firebase-storage-19.2.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.0.0] /Users/paramsharma/.gradle/caches/transforms-2/files-2.1/23647940eea51c2d5838f292be275f6a/jetified-firebase-firestore-22.0.0/AndroidManifest.xml:13:5-79

@@ -16,7 +16,7 @@ class _CreateBlogState extends State<CreateBlog> {
   File selectedImage;
   bool _isLoading = false;
   CrudMethods crudMethods = new CrudMethods();
-
+  @deprecated
   Future getImage() async {
     var image = await ImagePicker.pickImage(source: ImageSource.gallery);
 
@@ -61,15 +61,14 @@ class _CreateBlogState extends State<CreateBlog> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Covid",
-                style: TextStyle(fontSize: 22, color: Colors.black54)),
+            Text("Covid", style: TextStyle(fontSize: 22, color: Colors.white)),
             Text(
               "Blog",
               style: TextStyle(fontSize: 22, color: Colors.pink[100]),
             )
           ],
         ),
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.grey[700],
         elevation: 0.0,
         actions: <Widget>[
           GestureDetector(

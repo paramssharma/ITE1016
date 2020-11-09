@@ -51,14 +51,14 @@ class _TrackerState extends State<Tracker> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text("Covid",
-                  style: TextStyle(fontSize: 22, color: Colors.black54)),
+                  style: TextStyle(fontSize: 22, color: Colors.white)),
               Text(
                 "Tracker",
                 style: TextStyle(fontSize: 22, color: Colors.pink[100]),
               )
             ],
           ),
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.grey[700],
           elevation: 0.0,
           // actions: <Widget>[
           //   GestureDetector(
@@ -86,8 +86,8 @@ class _TrackerState extends State<Tracker> {
                         end: Alignment.bottomLeft,
                         // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
-                          Color(0xFF8D8E98),
-                          Color(0xFF8D8E98),
+                          Color(0xFFFFFFF9),
+                          Color(0xFFFFFFFF),
                           // Colors.yellow[600],
                           // Colors.yellow[400],
                         ],
@@ -98,13 +98,13 @@ class _TrackerState extends State<Tracker> {
                       children: <Widget>[
                         Text('Total Cases',
                             style: TextStyle(
-                              color: Color(0xFFFFFFFF),
-                              fontSize: 30,
+                              color: Colors.black38,
+                              fontSize: 20,
                             )),
                         Text('${totalCases.toString()}',
                             style: TextStyle(
-                                color: Color(0xFFFFFFFF),
-                                fontSize: 40,
+                                color: Colors.black38,
+                                fontSize: 45,
                                 fontWeight: FontWeight.w900)),
                       ],
                     ),
@@ -132,8 +132,8 @@ class _TrackerState extends State<Tracker> {
                         end: Alignment.bottomLeft,
                         // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
-                          Color(0xFF8D8E98),
-                          Color(0xFF8D8E98),
+                          Color(0xFFFFFFFF),
+                          Color(0xFFFFFFF9),
                           // Colors.yellow[600],
                           // Colors.yellow[400],
                         ],
@@ -144,13 +144,13 @@ class _TrackerState extends State<Tracker> {
                       children: <Widget>[
                         Text('Total Recovered',
                             style: TextStyle(
-                              color: Color(0xFFFFFFFF),
+                              color: Colors.black38,
                               fontSize: 15,
                             )),
                         Text('${totalNewCasesToday.toString()}',
                             style: TextStyle(
-                                color: Color(0xFFFFFFFF),
-                                fontSize: 25,
+                                color: Colors.black38,
+                                fontSize: 30,
                                 fontWeight: FontWeight.w900)),
                       ],
                     ),
@@ -213,8 +213,8 @@ class _TrackerState extends State<Tracker> {
                         end: Alignment.bottomLeft,
                         // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
-                          Color(0xFF8D8E98),
-                          Color(0xFF8D8E98),
+                          Color(0xFFFFFFFF),
+                          Color(0xFFFFFFF9),
                           // Colors.yellow[600],
                           // Colors.yellow[400],
                         ],
@@ -225,13 +225,13 @@ class _TrackerState extends State<Tracker> {
                       children: <Widget>[
                         Text('Total deaths',
                             style: TextStyle(
-                              color: Color(0xFFFFFFFF),
+                              color: Colors.black38,
                               fontSize: 15,
                             )),
                         Text('${totalDeath.toString()}',
                             style: TextStyle(
-                                color: Color(0xFFFFFFFF),
-                                fontSize: 25,
+                                color: Colors.black38,
+                                fontSize: 30,
                                 fontWeight: FontWeight.w900)),
                       ],
                     ),
@@ -252,7 +252,7 @@ class _TrackerState extends State<Tracker> {
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.w900,
-                          color: Color(0xFF8D8E98),
+                          color: Colors.white,
                         )),
                   ),
                 ]),
@@ -271,8 +271,8 @@ class _TrackerState extends State<Tracker> {
                                 end: Alignment.bottomLeft,
                                 // stops: [0.1, 0.5, 0.7, 0.9],
                                 colors: [
-                                  Color(0xFF8D8E98),
-                                  Color(0xFF8D8E98),
+                                  Color(0xFFFFFFFF),
+                                  Color(0xFFFFFFF9),
                                   // Colors.yellow[600],
                                   // Colors.yellow[400],
                                 ],
@@ -283,13 +283,13 @@ class _TrackerState extends State<Tracker> {
                               children: <Widget>[
                                 Text('Total Cases',
                                     style: TextStyle(
-                                      color: Color(0xFFFFFFFF),
+                                      color: Colors.black38,
                                       fontSize: 15,
                                     )),
                                 Text('${totalCasesIndia.toString()}',
                                     style: TextStyle(
-                                        color: Color(0xFFFFFFFF),
-                                        fontSize: 20,
+                                        color: Colors.black38,
+                                        fontSize: 30,
                                         fontWeight: FontWeight.w900)),
                               ],
                             ),
@@ -312,8 +312,8 @@ class _TrackerState extends State<Tracker> {
                             end: Alignment.bottomLeft,
                             // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
-                              Color(0xFF8D8E98),
-                              Color(0xFF8D8E98),
+                              Color(0xFFFFFFFF),
+                              Color(0xFFFFFFF9),
                               // Colors.yellow[600],
                               // Colors.yellow[400],
                             ],
@@ -324,13 +324,13 @@ class _TrackerState extends State<Tracker> {
                           children: <Widget>[
                             Text('New Cases',
                                 style: TextStyle(
-                                  color: Color(0xFFFFFFFF),
+                                  color: Colors.black38,
                                   fontSize: 15,
                                 )),
                             Text('${totalNewIndiaCasesToday.toString()}',
                                 style: TextStyle(
-                                    color: Color(0xFFFFFFFF),
-                                    fontSize: 20,
+                                    color: Colors.black38,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.w900)),
                           ],
                         ),
@@ -353,8 +353,8 @@ class _TrackerState extends State<Tracker> {
                             end: Alignment.bottomLeft,
                             // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
-                              Color(0xFF8D8E98),
-                              Color(0xFF8D8E98),
+                              Color(0xFFFFFFFF),
+                              Color(0xFFFFFFF9),
                               // Colors.yellow[600],
                               // Colors.yellow[400],
                             ],
@@ -365,13 +365,13 @@ class _TrackerState extends State<Tracker> {
                           children: <Widget>[
                             Text('Total Deaths',
                                 style: TextStyle(
-                                  color: Color(0xFFFFFFFF),
+                                  color: Colors.black38,
                                   fontSize: 15,
                                 )),
                             Text('${totalDeathIndia.toString()}',
                                 style: TextStyle(
-                                    color: Color(0xFFFFFFFF),
-                                    fontSize: 20,
+                                    color: Colors.black38,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.w900)),
                           ],
                         ),
@@ -394,8 +394,8 @@ class _TrackerState extends State<Tracker> {
                             end: Alignment.bottomLeft,
                             // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
-                              Color(0xFF8D8E98),
-                              Color(0xFF8D8E98),
+                              Color(0xFFFFFFFF),
+                              Color(0xFFFFFFF9),
                               // Colors.yellow[600],
                               // Colors.yellow[400],
                             ],
@@ -406,13 +406,13 @@ class _TrackerState extends State<Tracker> {
                           children: <Widget>[
                             Text('New Deaths',
                                 style: TextStyle(
-                                  color: Color(0xFFFFFFFF),
+                                  color: Colors.black38,
                                   fontSize: 15,
                                 )),
                             Text('${totalNewDeathsTodayIndia.toString()}',
                                 style: TextStyle(
-                                    color: Color(0xFFFFFFFF),
-                                    fontSize: 20,
+                                    color: Colors.black38,
+                                    fontSize: 30,
                                     fontWeight: FontWeight.w900)),
                           ],
                         ),

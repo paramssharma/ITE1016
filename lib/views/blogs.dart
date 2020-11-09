@@ -18,6 +18,9 @@ class _BlogsState extends State<Blogs> {
       child: blogsStream != null
           ? Column(
               children: <Widget>[
+                SizedBox(
+                  height: 10,
+                ),
                 StreamBuilder(
                   stream: blogsStream,
                   builder: (context, snapshot) {
@@ -66,15 +69,18 @@ class _BlogsState extends State<Blogs> {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
+              SizedBox(
+                width: 60,
+              ), //centre karne k liye add kara h
               Text("Covid",
-                  style: TextStyle(fontSize: 22, color: Colors.black54)),
+                  style: TextStyle(fontSize: 22, color: Colors.white)),
               Text(
                 "Blog",
                 style: TextStyle(fontSize: 22, color: Colors.pink[100]),
               )
             ],
           ),
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.grey[700],
           elevation: 0.0,
           actions: <Widget>[
             GestureDetector(
@@ -146,19 +152,32 @@ class BlogsTile extends StatelessWidget {
                 Text(
                   title,
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
+                  style: TextStyle(
+                      fontSize: 25,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black54),
                 ),
                 SizedBox(
                   height: 4,
                 ),
                 Text(
                   description,
-                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w400,
+                      color: Colors.black45),
                 ),
                 SizedBox(
                   height: 4,
                 ),
-                Text(authorName)
+                Text(
+                  authorName,
+                  style: TextStyle(
+                      // fontSize: 17,
+                      // fontWeight: FontWeight.w400,
+                      color: Colors.black45),
+                )
               ],
             ),
           )

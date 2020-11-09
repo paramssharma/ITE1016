@@ -14,15 +14,14 @@ class _SymptomsState extends State<Symptoms> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Covid",
-                style: TextStyle(fontSize: 22, color: Colors.black54)),
+            Text("Covid", style: TextStyle(fontSize: 22, color: Colors.white)),
             Text(
               "Symptoms",
               style: TextStyle(fontSize: 22, color: Colors.pink[100]),
             )
           ],
         ),
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.grey[700],
         elevation: 0.0,
       ),
       body: Stack(
