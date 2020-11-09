@@ -1,8 +1,9 @@
+import 'package:covidapp/views/blogs.dart';
 import 'package:covidapp/views/precautions.dart';
 import 'package:covidapp/views/symptoms.dart';
 import 'package:covidapp/views/tracker.dart';
 import 'package:flutter/material.dart';
-
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 // import 'views/precautions.dart';
 // import 'views/symptoms.dart';
 // import 'views/blog.dart';
@@ -27,8 +28,8 @@ class _Covid19State extends State<Covid19> {
         return Precautions();
       case 2:
         return Symptoms();
-      // case 3:
-      //   return Tracker();
+      case 3:
+        return Blogs();
       // case 4:
       //   return CasesScreen();
     }
@@ -41,7 +42,7 @@ class _Covid19State extends State<Covid19> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light().copyWith(
         // primaryColor: Colors.pink[50],
-        scaffoldBackgroundColor: Colors.grey[200],
+        scaffoldBackgroundColor: Colors.grey[300],
       ),
       home: Scaffold(
           // appBar: AppBar(
@@ -66,7 +67,7 @@ class _Covid19State extends State<Covid19> {
             // rha tha 4 item pe
             items: [
               BottomNavigationBarItem(
-                icon: Icon(Icons.graphic_eq),
+                icon: Icon(Icons.equalizer),
                 title: Text(
                   "",
                   style: TextStyle(fontSize: 0),
@@ -87,7 +88,7 @@ class _Covid19State extends State<Covid19> {
                 ),
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.phone),
+                icon: Icon(Icons.book),
                 title: Text(
                   "",
                   style: TextStyle(fontSize: 0),
