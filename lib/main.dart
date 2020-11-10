@@ -34,15 +34,9 @@ class _Covid19State extends State<Covid19> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        // primaryColor: Colors.pink[50],
         scaffoldBackgroundColor: Colors.grey[600],
       ),
       home: Scaffold(
-          // appBar: AppBar(
-          //   title: Text('Covid19'),
-          //   backgroundColor: Colors.white,
-          //   centerTitle: true,
-          // ),
           body: SafeArea(
             child: Padding(
               padding: const EdgeInsets.only(bottom: 6.0),
@@ -54,10 +48,7 @@ class _Covid19State extends State<Covid19> {
             selectedItemColor: Colors.pink[300],
             unselectedItemColor: Colors.black,
             backgroundColor: Colors.grey[700],
-
-            type: BottomNavigationBarType
-                .fixed, //ye is liye daali h kyoki color change ho
-            // rha tha 4 item pe
+            type: BottomNavigationBarType.fixed,
             items: [
               BottomNavigationBarItem(
                 icon: Icon(Icons.equalizer),
@@ -87,13 +78,6 @@ class _Covid19State extends State<Covid19> {
                   style: TextStyle(fontSize: 0),
                 ),
               )
-              // BottomNavigationBarItem(
-              //   icon: Icon(Icons.phone),
-              //   title: Text(
-              //     "",
-              //     style: TextStyle(fontSize: 0),
-              //   ),
-              // )
             ],
             onTap: (index) {
               setState(() {

@@ -60,16 +60,6 @@ class _TrackerState extends State<Tracker> {
           ),
           backgroundColor: Colors.grey[700],
           elevation: 0.0,
-          // actions: <Widget>[
-          //   GestureDetector(
-          //     onTap: () {
-          //       uploadBlog();
-          //     },
-          //     child: Container(
-          //         padding: EdgeInsets.symmetric(horizontal: 16),
-          //         child: Icon(Icons.file_upload)),
-          //   )
-          // ],
         ),
         Expanded(
             flex: 1,
@@ -84,12 +74,9 @@ class _TrackerState extends State<Tracker> {
                       gradient: LinearGradient(
                         begin: Alignment.topRight,
                         end: Alignment.bottomLeft,
-                        // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
                           Color(0xFFFFFFF9),
                           Color(0xFFFFFFFF),
-                          // Colors.yellow[600],
-                          // Colors.yellow[400],
                         ],
                       ),
                     ),
@@ -116,7 +103,6 @@ class _TrackerState extends State<Tracker> {
             flex: 1,
             child: Row(
               children: <Widget>[
-                //pehla dabba
                 Expanded(
                   child: Container(
                     margin: EdgeInsets.only(left: 15.0),
@@ -130,12 +116,9 @@ class _TrackerState extends State<Tracker> {
                       gradient: LinearGradient(
                         begin: Alignment.topRight,
                         end: Alignment.bottomLeft,
-                        // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
                           Color(0xFFFFFFFF),
                           Color(0xFFFFFFF9),
-                          // Colors.yellow[600],
-                          // Colors.yellow[400],
                         ],
                       ),
                     ),
@@ -157,47 +140,7 @@ class _TrackerState extends State<Tracker> {
                   ),
                 ),
                 SizedBox(width: 2.0),
-                //doosra dabba
-                // Expanded(
-                //   child: Container(
-                //     decoration: BoxDecoration(
-                //       // color: Colors.white,
-                //       borderRadius: BorderRadius.only(
-                //           topRight: Radius.circular(10.0),
-                //           bottomRight: Radius.circular(10.0),
-                //           topLeft: Radius.circular(10.0),
-                //           bottomLeft: Radius.circular(10.0)),
-                //       gradient: LinearGradient(
-                //         begin: Alignment.topRight,
-                //         end: Alignment.bottomLeft,
-                //         // stops: [0.1, 0.5, 0.7, 0.9],
-                //         colors: [
-                //           Color(0xFF8D8E98),
-                //           Color(0xFF8D8E98),
-                //           // Colors.yellow[600],
-                //           // Colors.yellow[400],
-                //         ],
-                //       ),
-                //     ),
-                //     child: Column(
-                //       mainAxisAlignment: MainAxisAlignment.center,
-                //       children: <Widget>[
-                //         Text('Total deaths today',
-                //             style: TextStyle(
-                //               color: Color(0xFFFFFFFF),
-                //               fontSize: 15,
-                //             )),
-                //         Text('${totalNewDeathsToday.toString()}',
-                //             style: TextStyle(
-                //                 color: Color(0xFFFFFFFF),
-                //                 fontSize: 25,
-                //                 fontWeight: FontWeight.w900)),
-                //       ],
-                //     ),
-                //   ),
-                // ),
                 SizedBox(width: 2.0),
-                //teesra dabba
                 Expanded(
                   child: Container(
                     margin: EdgeInsets.only(right: 15.0),
@@ -211,12 +154,9 @@ class _TrackerState extends State<Tracker> {
                       gradient: LinearGradient(
                         begin: Alignment.topRight,
                         end: Alignment.bottomLeft,
-                        // stops: [0.1, 0.5, 0.7, 0.9],
                         colors: [
                           Color(0xFFFFFFFF),
                           Color(0xFFFFFFF9),
-                          // Colors.yellow[600],
-                          // Colors.yellow[400],
                         ],
                       ),
                     ),
@@ -239,8 +179,6 @@ class _TrackerState extends State<Tracker> {
                 ),
               ],
             )),
-        // Expanded(child: Row( children: [Container( child: Row(),)], ))
-
         Expanded(
             flex: 3,
             child: Column(
@@ -269,12 +207,9 @@ class _TrackerState extends State<Tracker> {
                               gradient: LinearGradient(
                                 begin: Alignment.topRight,
                                 end: Alignment.bottomLeft,
-                                // stops: [0.1, 0.5, 0.7, 0.9],
                                 colors: [
                                   Color(0xFFFFFFFF),
                                   Color(0xFFFFFFF9),
-                                  // Colors.yellow[600],
-                                  // Colors.yellow[400],
                                 ],
                               ),
                             ),
@@ -310,12 +245,9 @@ class _TrackerState extends State<Tracker> {
                           gradient: LinearGradient(
                             begin: Alignment.topRight,
                             end: Alignment.bottomLeft,
-                            // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
                               Color(0xFFFFFFFF),
                               Color(0xFFFFFFF9),
-                              // Colors.yellow[600],
-                              // Colors.yellow[400],
                             ],
                           ),
                         ),
@@ -351,12 +283,9 @@ class _TrackerState extends State<Tracker> {
                           gradient: LinearGradient(
                             begin: Alignment.topRight,
                             end: Alignment.bottomLeft,
-                            // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
                               Color(0xFFFFFFFF),
                               Color(0xFFFFFFF9),
-                              // Colors.yellow[600],
-                              // Colors.yellow[400],
                             ],
                           ),
                         ),
@@ -392,12 +321,9 @@ class _TrackerState extends State<Tracker> {
                           gradient: LinearGradient(
                             begin: Alignment.topRight,
                             end: Alignment.bottomLeft,
-                            // stops: [0.1, 0.5, 0.7, 0.9],
                             colors: [
                               Color(0xFFFFFFFF),
                               Color(0xFFFFFFF9),
-                              // Colors.yellow[600],
-                              // Colors.yellow[400],
                             ],
                           ),
                         ),

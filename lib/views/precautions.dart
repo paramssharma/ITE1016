@@ -23,7 +23,6 @@ class _PrecautionsState extends State<Precautions> {
         backgroundColor: Colors.grey[700],
         elevation: 0.0,
       ),
-      // backgroundColor: const Color(0xfff0f0f0),
       body: Stack(
         children: <Widget>[
           Transform.translate(
@@ -72,9 +71,7 @@ class _PrecautionsState extends State<Precautions> {
           ),
           Transform.translate(
             offset: Offset(51.0, 47.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -87,9 +84,7 @@ class _PrecautionsState extends State<Precautions> {
           ),
           Transform.translate(
             offset: Offset(53.0, 187.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -102,9 +97,7 @@ class _PrecautionsState extends State<Precautions> {
           ),
           Transform.translate(
             offset: Offset(53.0, 325.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -117,9 +110,7 @@ class _PrecautionsState extends State<Precautions> {
           ),
           Transform.translate(
             offset: Offset(53.0, 467.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(

@@ -9,7 +9,6 @@ class _SymptomsState extends State<Symptoms> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: const Color(0xfff0f0f0),
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -72,9 +71,7 @@ class _SymptomsState extends State<Symptoms> {
           ),
           Transform.translate(
             offset: Offset(51.0, 47.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -87,9 +84,7 @@ class _SymptomsState extends State<Symptoms> {
           ),
           Transform.translate(
             offset: Offset(53.0, 187.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -102,9 +97,7 @@ class _SymptomsState extends State<Symptoms> {
           ),
           Transform.translate(
             offset: Offset(53.0, 325.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(
@@ -117,9 +110,7 @@ class _SymptomsState extends State<Symptoms> {
           ),
           Transform.translate(
             offset: Offset(53.0, 467.0),
-            child:
-                // Adobe XD layer: 'sore throat' (shape)
-                Container(
+            child: Container(
               width: 82.0,
               height: 86.0,
               decoration: BoxDecoration(

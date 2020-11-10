@@ -64,14 +64,13 @@ class _BlogsState extends State<Blogs> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Colors.white10,
       appBar: AppBar(
           title: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               SizedBox(
                 width: 60,
-              ), //centre karne k liye add kara h
+              ),
               Text("Covid",
                   style: TextStyle(fontSize: 22, color: Colors.white)),
               Text(
@@ -94,22 +93,6 @@ class _BlogsState extends State<Blogs> {
             )
           ]),
       body: BlogsList(),
-      // floatingActionButton: Container(
-      //   margin: EdgeInsets.symmetric(horizontal: 20),
-      //   padding: EdgeInsets.symmetric(vertical: 20),
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     children: <Widget>[
-      //       FloatingActionButton(
-      //         onPressed: () {
-      //           Navigator.push(context,
-      //               MaterialPageRoute(builder: (context) => CreateBlog()));
-      //         },
-      //         child: Icon(Icons.add),
-      //       )
-      //     ],
-      //   ),
-      // ),
     );
   }
 }
@@ -173,10 +156,7 @@ class BlogsTile extends StatelessWidget {
                 ),
                 Text(
                   authorName,
-                  style: TextStyle(
-                      // fontSize: 17,
-                      // fontWeight: FontWeight.w400,
-                      color: Colors.black45),
+                  style: TextStyle(color: Colors.black45),
                 )
               ],
             ),
